@@ -4,7 +4,6 @@ public class CreateArrRandomNumb {
     public static void main(String[] args) {
     buildRandomIntegerArray(5);
 }
-
     public static void buildRandomIntegerArray(int a) {
         int[] x = new int[a];
         for (int i = 0; i < a; i++) {
