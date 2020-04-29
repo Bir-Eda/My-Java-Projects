@@ -2,7 +2,7 @@ package fifteenlinkedllistHashMappackage;
 import java.util.HashMap;
 public class ElectionVotesE {
     public static void main(String[] args) {
-        String votes[]={"John", "Adam","John", "Adam", "Bill", "Adam", "Adam"};
+        String votes[]={"John", "Eda", "Adam","John", "Adam", "Bill", "Adam", "Adam"};
         HashMap<String, Integer> map = new HashMap<>();
         int num=1;
         for(int i=0; i<votes.length; i++){
@@ -22,7 +22,7 @@ public class ElectionVotesE {
                 winner=elements;
             }
         }
-        System.out.println(winner+ " has total votes: "+max);
+        System.out.println(winner+ " has votes: "+max);
         System.out.println(map.get("John"));
     }
 }

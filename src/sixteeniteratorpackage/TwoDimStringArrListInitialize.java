@@ -30,6 +30,24 @@ public class TwoDimStringArrListInitialize {
             }
                 System.out.println("Total upper for this line  "+counter);
             }
+        int count;
+        HashMap<String, Integer> hm= new HashMap<>();
+        for(int i=0; i<myWord.size(); i++){
+            for (int j = 0; j < myWord.get(i).size() ; j++) {
+                count=0;
+                System.out.println(myWord.get(i));
+                for (int k = 0; k < myWord.get(i).get(j).length(); k++) {
+                    System.out.println(myWord.get(i).get(j));
+                    if(Character.isUpperCase(myWord.get(i).get(j).charAt(k))){
+                        System.out.println(myWord.get(i).get(j).charAt(k));
+                        count++;
+                    }
+                }
+                hm.put(myWord.get(i).get(j),count);
+            }
         }
-    }
+        System.out.println(hm);
+
+        }
+        }
 

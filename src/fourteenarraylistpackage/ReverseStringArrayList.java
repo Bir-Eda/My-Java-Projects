@@ -12,7 +12,7 @@ public class ReverseStringArrayList {
 
         }
         System.out.println();
-        for (String letter : arr) {
+       for (String letter : arr) {
             if (!newList.contains(letter)) {
                 newList.add(letter);
             }

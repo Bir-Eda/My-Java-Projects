@@ -14,6 +14,7 @@ public class TwoDimIntArrayFirst {
             }
         }
         //System.out.println(myTwoDim);
+
         for(int i=0; i<myTwoDim.size(); i++){
             System.out.println(myTwoDim.get(i));
         }
@@ -21,6 +22,7 @@ public class TwoDimIntArrayFirst {
 
             for(int numbers: arr){
                 System.out.println(numbers);
+
             }
         }
         // while loop implementation

@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class AnagramFind {
     public static void main(String[] args) {
-        //System.out.println(anagram("cat", "cate"));
+        System.out.println(anagram("cat", "cate"));
 
     }
 
