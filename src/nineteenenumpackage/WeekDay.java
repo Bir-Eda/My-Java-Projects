@@ -1,6 +1,6 @@
 package nineteenenumpackage;
 
-public enum WeekDays {
+public enum WeekDay {
         Sunday("Sunday Funday", true),
         Monday("Marketing monday"),
         Tuesday("Trendy tuesday"),
@@ -12,11 +12,11 @@ public enum WeekDays {
         private String daysGreeting;
         private boolean isWeekend;
 
-        WeekDays(final String daysGreeting) {
+        WeekDay(final String daysGreeting) {
             this.daysGreeting = daysGreeting;
         }
 
-        WeekDays(final String daysGreeting, final boolean isWeekend) {
+        WeekDay(final String daysGreeting, final boolean isWeekend) {
             this.daysGreeting = daysGreeting;
             this.isWeekend = isWeekend;
         }
@@ -27,8 +27,8 @@ public enum WeekDays {
             return isWeekend;
         }
     public static void main(String[] args) {
-        WeekDays day1 = WeekDays.Friday;
-        WeekDays day2 = WeekDays.Saturday;
+        WeekDay day1 = WeekDay.Friday;
+        WeekDay day2 = WeekDay.Saturday;
         System.out.print(day1 + " : ");
         System.out.println(day1.getDaysGreeting());
         System.out.print(day2 + " : ");

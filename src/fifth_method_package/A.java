@@ -6,6 +6,6 @@ public class A {
     }
 
     public static void main(String[] args) {
-        //TopToBottomHello.topToBottom("Hello asdfg"); // bir metodu baska bir metodla cagirabilirsin
+        TopToBottomHello.topToBottom("Hello asdfg"); // bir metodu baska bir metodla cagirabilirsin
     }
 }

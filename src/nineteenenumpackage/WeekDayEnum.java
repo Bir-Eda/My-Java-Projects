@@ -1,14 +1,14 @@
 package nineteenenumpackage;
 
 public class WeekDayEnum {
-    enum Days {
+    enum Day {
         Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday,
     }
 
 
 
         public static void main (String[]args){
-            for (Days days : Days.values()) {
+            for (Day days : Day.values()) {
                 System.out.println(days);
             }
         }
