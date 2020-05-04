@@ -1,0 +1,26 @@
+package codingbat;
+
+public class SumNumbersT {
+    public static void main(String[] args) {
+        sumNumbers("aa11b36");
+    }
+    public static void sumNumbers(String str){
+        String temp="";
+        int k=0;
+        for (int i = 0; i < str.length();i++) {
+            while(i<str.length()&&Character.isDigit(str.charAt(i))){
+                while(i<str.length()&&Character.isDigit(str.charAt(i))){
+                    temp+=str.charAt(i);
+                    i++;
+                }
+                temp+=" ";
+            }
+        }
+        String[] arr=temp.split(" ");
+        for (int i = 0; i <arr.length ; i++) {
+            k+=Integer.parseInt(arr[i]);
+        }
+        System.out.println(k);
+    }
+
+}
