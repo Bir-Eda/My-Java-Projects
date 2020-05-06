@@ -19,7 +19,7 @@ public class Factorial {
        // factorial(2)
         // factorial(1)
           // return 1
-        // return 2*1=2
+       // return 2*1=2
       // return 3*2=6
      // return 4*6=24
     // return 5*24=120
