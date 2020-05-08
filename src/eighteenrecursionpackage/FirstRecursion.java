@@ -4,6 +4,7 @@ public class FirstRecursion {
     static int counter=0;
     public static void main(String[] args) {
         doIt();
+        doThat(8);
 
     }
     public static void doIt(){
