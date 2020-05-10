@@ -10,7 +10,7 @@ public class FileReadingFirst {
             File myFile = new File("first.txt");
             Scanner scan = new Scanner(myFile);
             while (scan.hasNext()) {
-                System.out.print(scan.nextInt());
+                System.out.println(scan.nextLine());
             }
 
         } catch (Exception e) {

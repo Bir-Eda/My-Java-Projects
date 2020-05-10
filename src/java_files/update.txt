@@ -1,0 +1,8 @@
+apple
+pear
+tangerine
+plum
+tangerine
+banana
+tomato
+tangerine

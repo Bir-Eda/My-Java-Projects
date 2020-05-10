@@ -1,9 +1,8 @@
 package twentyonequeuepackage;
-
 import java.io.File;
 import java.io.IOException;
 
-public class JavaFileClassMethods {
+public class FileClassMyOwn {
     public static void main(String[] args) {
         try{
             File my=new File("Birsen.txt");

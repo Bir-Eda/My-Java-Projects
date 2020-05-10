@@ -5,10 +5,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class JFCFileWriting {
+public class FileWriting {
     public static void main(String[] args) {
         try {
-            FileWriter myWriter = new FileWriter("birsen.txt");
+            FileWriter myWriter = new FileWriter("first.txt");
             myWriter.write("Java is super fun. It is even better\n");
             myWriter.write("Java is super fun. It is even better\n");
             myWriter.write("Java is super fun. It is even better\n");
