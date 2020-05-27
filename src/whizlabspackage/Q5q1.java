@@ -9,10 +9,13 @@ public class Q5q1 {
         ints.add("a");
         ints.add("b");
         ints.add("c");
+        ints.add("Ali");
         System.out.println(ints);
-        while (!ints.isEmpty()) {
-            System.out.println(ints.remove(0));
-            System.out.println(ints);
+        System.out.println(ints.get(2));
+
+        while (!ints.isEmpty()) { //int bos degilse calis
+            System.out.print(ints.remove(0));
+           // System.out.println(ints);
 
         }
     }

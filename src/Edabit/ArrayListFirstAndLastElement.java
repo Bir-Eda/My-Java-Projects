@@ -21,5 +21,5 @@ public class ArrayListFirstAndLastElement {
         }
         System.out.println(names);
     }
-    
+
 }

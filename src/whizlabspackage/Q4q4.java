@@ -12,6 +12,6 @@ public class Q4q4 {
         array[1][1]=10;
         array[1][2]=20;
 
-        System.out.println(array[2][0]);
+        System.out.println(array[1][1]);
     }
 }
