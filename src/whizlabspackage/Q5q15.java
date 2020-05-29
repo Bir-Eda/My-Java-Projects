@@ -7,7 +7,7 @@ public class Q5q15 {
             System.out.println(x);
         }
         while(x++<2); // comma oldugu icin while foru gormuyor
-        for(x=0; x++<5;)
-           System.out.print(x);
+       // for(x=0; x++<2;)
+          // System.out.print(x);
     }
 }
