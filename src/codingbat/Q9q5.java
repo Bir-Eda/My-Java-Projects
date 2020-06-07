@@ -12,12 +12,18 @@ public class Q9q5 {
 
         String []arr=new String[2];
         arr = str.toArray(arr); // Stringi arraya cevir demek  concat
-       String a="Ali";
-       String s2=a.concat(" Mert");
-        System.out.println(s2);
+        //System.out.println(arr);
 
-        for(String s:arr){
-            System.out.println(s);
+        for(int i=0; i<arr.length; i++){
+            System.out.println(arr[i]);
         }
+
+//       String a="Ali";
+//       String s2=a.concat(" Mert");
+//        System.out.println(s2);
+//
+//        for(String s:arr){
+//            System.out.println(s);
+//        }
     }
 }
