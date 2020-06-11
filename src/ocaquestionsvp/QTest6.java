@@ -1,9 +1,8 @@
 package ocaquestionsvp;
 
 import java.io.IOException;
-
     class X {
-        public void printFileContent()throws IOException {
+        public void printFileContent() throws IOException{
 
             throw new IOException();
         }
@@ -14,3 +13,6 @@ import java.io.IOException;
             x.printFileContent();
         }
     }
+
+
+

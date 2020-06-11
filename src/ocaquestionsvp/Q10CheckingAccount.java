@@ -17,9 +17,9 @@ public class Q10CheckingAccount {
 
     public static void main(String[] args) {
         Q10CheckingAccount acc=new Q10CheckingAccount((int)(Math.random()*1000));
-//        acc.amount=0;
-//        acc.changeAmount(-acc.amount);
-//        acc.getAmount();
+       // acc.amount=0;
+      // acc.changeAmount(-acc.amount);
+       acc.setAmount(0);
 
        // acc.setAmount(int 0);
 
