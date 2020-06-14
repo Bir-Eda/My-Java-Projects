@@ -10,7 +10,7 @@ public class Q18 {
             for(int b=0; b<arr.length; b++){
                 arr[a][b]=""+m;
                 m++;
-                System.out.println();
+               // System.out.println();
             }
         }
         for(String [] ca:arr){

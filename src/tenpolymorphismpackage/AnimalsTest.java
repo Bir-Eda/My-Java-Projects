@@ -8,6 +8,8 @@ public class AnimalsTest {
         animal.makeSound();
         cat.makeSound();
         dog.makeSound();
+        Cat cat1=new Cat();
+        cat1.makeSound();
 
     }
 }
