@@ -5,7 +5,7 @@ public class Q33 {
         int x=5;
         while(isAvailable(x)){
             System.out.print(x);
-            x--;
+           // x--;      (insert x--)
         }
     }
     public static boolean isAvailable(int x){
