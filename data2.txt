@@ -1,0 +1,5 @@
+Product	$ Price	Brand
+---------------------------
+Apple	$1.4
+Animal	$6.0
+Asparagas	$4
