@@ -6,7 +6,8 @@ public class Q24 {
         int idx=0;
         for(String s:str){
             str[idx].concat(" element "+idx);
-            idx++;
+           idx++;
+           // System.out.println(s);
         }
         for(idx=0; idx<str.length; idx++){
             System.out.println(str[idx]);
