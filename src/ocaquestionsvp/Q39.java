@@ -7,9 +7,12 @@ public class Q39 {
         shirts[0][1]="blue";
         shirts[1][0]="small";
         shirts[1][1]="medium";
-        for(int i=0; i<2; i++){
-            for(int j=0; j<2;j++){
-                System.out.println(shirts[i][j]);
+        //for(int i=0; i<2; i++){
+          //  for(int j=0; j<2;j++){
+        for(String []a:shirts){
+            for(String b: a){
+                System.out.println(b+":");
+               // System.out.println(shirts[i][j]);
             }
         }
 
