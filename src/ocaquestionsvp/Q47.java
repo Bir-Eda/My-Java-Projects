@@ -3,7 +3,7 @@ package ocaquestionsvp;
 public class Q47 {
     public static void main(String[] args) {
         
-        String []str={"A", "B"};
+        String []str={"A", "B", "C"};
         int idx=0;
         for(String s: str){
             str[idx].concat("element "+idx);

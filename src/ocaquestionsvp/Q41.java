@@ -11,9 +11,9 @@ public class Q41 {
         arr.add("Bran");
         arr.add("Rick");
         arr.add("Bran");
-        if(arr.remove("Bran")){
-            arr.remove("Jon");
-        }
+        if(arr.remove("Bran")){ arr.remove("Jon");
+
+       }
         System.out.println(arr);
 
     }
