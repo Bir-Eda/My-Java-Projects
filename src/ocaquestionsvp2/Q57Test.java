@@ -1,0 +1,8 @@
+package ocaquestionsvp2;
+
+public class Q57Test {
+    public static void main(String[] args) {
+        System.out.println("Hello "+new StringBuilder("Java SE 8"));
+        System.out.println("Hello "+ new Q57MyString("Java SE 8"));
+    }
+}
