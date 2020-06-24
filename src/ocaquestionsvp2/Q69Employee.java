@@ -5,7 +5,7 @@ class Q69Employee {
      String name;
      int salary;
 
-//
+
 //    public Q69Employee(int age, String name){
 //        setAge(age);
 //        setName(name);

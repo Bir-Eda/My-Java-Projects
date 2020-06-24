@@ -10,7 +10,8 @@ public class Q76 {
         // Cycle is an interface that is implemented by the MotorCycle class
         //Cycle is an abstract superclass of MotorCycle
 
-
+// < > arraya yazdigimiz interface abstract classa e refer eder
+        // alttakini de normal class olarak goruyor
 
     }
 
