@@ -6,7 +6,7 @@ public class Q94App {
         int myNum=0;
         try{
             String myStr=str;
-            myNum = Integer.parseInt(myStr);
+             myNum = Integer.parseInt(myStr);
         }
         catch (NumberFormatException ne){
             System.out.println("Error");
