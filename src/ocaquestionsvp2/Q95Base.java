@@ -1,5 +1,6 @@
 package ocaquestionsvp2;
 
-public class Q95 {
+public class Q95Base {
+
 
 }
