@@ -9,12 +9,12 @@ public class Q1 {
 
 
     }
-        private Q1(){
-            System.out.println("helleo");
-
-    }
-    private Q1(String name){
-        System.out.println("nam");
-
-    }
+//        private Q1(){
+//            System.out.println("helleo");
+//
+//    }
+//    private Q1(String name){
+//        System.out.println("nam");
+//
+//    }
 }

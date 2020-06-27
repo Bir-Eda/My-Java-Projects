@@ -12,7 +12,15 @@ public class Q11SumTest {
     }
 
     public static void main(String[] args) {
-        doSum(10,20);
-        doSum(10.0, 20.0);
+
+        float a=10;
+        double b=10;
+
+
+
+        doSum(10, 20); // float
+        doSum(10,20); // double
+
+
     }
 }

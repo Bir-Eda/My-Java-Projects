@@ -5,4 +5,4 @@ public class Q13 {
         System.out.println(5+ " Result A "+ 0+1);
         System.out.println("Result B "+(1)+(2));
     }
-}
+}  // (1+2)

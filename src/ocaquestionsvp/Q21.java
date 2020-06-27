@@ -9,5 +9,6 @@ public class Q21 {
             i++;
         }
         while(i<arr.length+1);
+
     }
 }

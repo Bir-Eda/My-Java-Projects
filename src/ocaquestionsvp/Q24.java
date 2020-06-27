@@ -7,10 +7,17 @@ public class Q24 {
         for(String s:str){
             str[idx].concat(" element "+idx);
            idx++;
-           // System.out.println(s);
+
         }
         for(idx=0; idx<str.length; idx++){
             System.out.println(str[idx]);
         }
+
+
+//        String name="ali";
+//        String nm="Cem";
+//
+//        String result=name.concat(nm);
+//        System.out.println(result);
     }
 }
