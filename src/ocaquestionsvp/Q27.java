@@ -5,16 +5,16 @@ public class Q27 {
     public int var = 200;
 
     public String toString() {
-        return sVar + ":" + var+ " : ";
+        return sVar + ":" + var+ " : ";  //
     }
 }
 class Q27T{
     public static void main(String[] args) {
         Q27 t1=new  Q27();
-        t1.var=500;
+        t1.var=300;   //   200
         System.out.println(t1);
         Q27 t2= new  Q27();
-        t2.sVar=300;
+        t2.sVar=300;     //   100
         System.out.println(t2);
 
 

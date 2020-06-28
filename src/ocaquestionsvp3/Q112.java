@@ -2,17 +2,7 @@ package ocaquestionsvp3;
 
 public class Q112 {
     public static void main(String[] args) {
-       // byte x=1;
-       // short x=1;
-        Integer x=new Integer("1");
-
-        switch(x){
-            case 1:
-                System.out.println("One");
-                break;
-            case 2:
-                System.out.println("Two");
-                break;
-        }
+ // Encapsulation is the name of the java concept that uses access modifiers to protect variables and hide them within a class
+  // Kapsülleme, değişkenleri korumak ve bunları bir sınıf içinde gizlemek için erişim değiştiricileri kullanan java kavramının adıdır
     }
 }
