@@ -1,12 +1,15 @@
 package ocaquestionsvp2;
 
 public class Q94App {
-    String myStr="7007";
+   String myStr="7007";
     public void doStuff(String str){
-        int myNum=0;
+         int myNum=0;
+
         try{
+
             String myStr=str;
              myNum = Integer.parseInt(myStr);
+            System.out.println(myStr);
         }
         catch (NumberFormatException ne){
             System.out.println("Error");
