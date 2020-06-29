@@ -21,9 +21,7 @@ package ocaquestionsvp;
         ref1.doPrint();
         ref2.doPrint();
         ref3.doPrint();
-        System.out.println(ref1);
-        System.out.println(ref2);
-        System.out.println(ref3);
+
 
     }     //???????
 }

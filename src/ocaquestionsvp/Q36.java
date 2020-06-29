@@ -6,6 +6,7 @@ public class Q36 {
         String str2 = new String("java");
         if (str2.equals(str1.toLowerCase())) {
         //if(str1.toLowerCase()==str2){
+            if(str1.equalsIgnoreCase(str2))
             System.out.println("Equal");
         } else {
             System.out.println("Not equals");
