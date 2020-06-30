@@ -21,3 +21,5 @@ class DVD extends CD{
         this.c = c;
     }
 }
+// parantezli super constructeri cagirir, super(c)
+// super. r parent clasin variableini  cagirir

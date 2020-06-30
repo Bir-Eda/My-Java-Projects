@@ -1,13 +1,16 @@
 package ocaquestionsvp2;
 abstract class Q101 {
-    protected void revolve() {
+    protected void revolve(){
+
     }
-        abstract void rotate();
-    }
+        abstract void rotate(); // abstract i default goruyor o yuzden protected i kabul eder
+
+} // butun interface metodlar publictir
 class Earth extends Q101{
-    protected void revolve() {
+
+    public void revolve() {  // public veya protected yapmaliyiz
     }
-     protected void rotate(){
+      void rotate(){  // default, protected ve public olabilir
 
      }
 }

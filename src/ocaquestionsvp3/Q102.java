@@ -16,3 +16,9 @@ public class Q102 {
         }
     }
 }
+// stringbuilderin ozelligi referans variable`a bakar
+//== ve .equals da referansa bakar ()
+// stringbuilderin kendisi objecttir
+// sb ise referanstir
+// String content(icerik) olarak javaya bakar
+// sb`yi toString ole contente bakacak hale getirmis

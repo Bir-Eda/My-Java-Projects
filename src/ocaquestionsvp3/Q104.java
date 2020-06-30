@@ -7,12 +7,12 @@ public class Q104 {
         ArrayList myList= new ArrayList();
         String[] myArray;
         try{
-            while(true){
+            while(true){  // whilein ici false olursa bir alt satiri gormez
                 myList.add("My String");
 
             }
         }
-        catch(RuntimeException re){
+        catch(RuntimeException re){  // runtimeexception alttaki catch de yazsaydi hata verecekti. child parenten altinda olmaz
             System.out.println("Caught a RunExcep");
         }
         catch(Exception e){
