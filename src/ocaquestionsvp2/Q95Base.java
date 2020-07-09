@@ -26,7 +26,7 @@ class DerivedB extends DerivedA {
         Q95Base b4 =  (DerivedA) b3;
        // Q95Base b5= (DerivedB)b2;
         b4.test();
-       // b2.test();
+        b1.test();
 
 
 

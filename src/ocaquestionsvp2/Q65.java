@@ -5,7 +5,10 @@ public class Q65 {
         String x="XXXX-XXXX-XXXX-";
 
 
-        StringBuilder sb=new StringBuilder(x);
+        StringBuilder sb=new StringBuilder(creditCard);  // x
+
+      //String a=  sb.substring(15, 19);
+     //   return x+a;
         System.out.println(x);
         sb.append(creditCard,15, 19);
         return sb.toString();

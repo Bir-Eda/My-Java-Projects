@@ -20,10 +20,11 @@ public class Q66 {
 
         check1.changeCount();
         check2.changeCount();
-        check3.changeCount();
-        System.out.println(check1.count+":"+check2.count+":"+check3.count+":"+check3.i);
+        System.out.println(check1.i);
+//        check3.changeCount();
+//        System.out.println(check1.count+":"+check2.count+":"+check3.count+":"+check3.i);
 
-       // System.out.println(check2.i+":"+check2.count);
+        System.out.println(check2.count+":"+check2.count);
 
     }
 }

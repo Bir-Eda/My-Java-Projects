@@ -5,7 +5,7 @@ public class Q102 {
         StringBuilder sb=new StringBuilder("Java"); // toString() kullanmak zorundayiz
         String s="Java";
 
-        if(sb.toString().equals(s.toString())){
+        if(sb.toString().equals(s)){
             System.out.println("Match 1");
         }
         else if(sb.equals(s)){

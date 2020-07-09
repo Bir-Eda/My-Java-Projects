@@ -5,8 +5,9 @@ public class Q116 {
         String opt="true";
         // boolean opt=true;
         switch(opt){
+
             case "true":
-                //case true:
+              //  case true:
                 System.out.println("True");
                 break;
             default:

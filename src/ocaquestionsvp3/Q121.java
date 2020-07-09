@@ -2,10 +2,11 @@ package ocaquestionsvp3;
 
 public class Q121 {
     public static void main(String[] args) {
-        String str="helloss world ";
-        str.trim();
+        String str="     hellos world 3 ";
+      str.trim();
+       // System.out.println(str2);
        // System.out.println(str);
-        int i1=str.indexOf(" ");
+        int i1=str.indexOf("s");
         System.out.println(i1);
     }
 }

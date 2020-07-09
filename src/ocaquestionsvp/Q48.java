@@ -10,7 +10,7 @@ public class Q48 {
         colors.add("Blue");
         colors.add("Red");
         colors.add("Yellow");
-        colors.add(2);
+        colors.remove(2);
         colors.add(3, "cyan");
         System.out.print(colors);
 

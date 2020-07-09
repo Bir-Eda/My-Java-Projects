@@ -8,3 +8,4 @@ public class Q51 {
         // main methodu her classta declare etmeye gerek yok sart degil
     }
 }
+

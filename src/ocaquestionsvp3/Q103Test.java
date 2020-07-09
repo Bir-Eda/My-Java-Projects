@@ -14,7 +14,12 @@ public class Q103Test {
 }
 class Student{
     String name;
-    public Student(String name){
+
+    public Student() {
+    }
+
+        public Student(String name){
         this.name=name;
     }
+
 }

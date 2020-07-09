@@ -7,7 +7,7 @@ package ocaquestionsvp;
 }
 class B extends C{
      public B(){
-         super();
+       //  super();
          System.out.print(" B");
      }
  }

@@ -3,7 +3,7 @@ package ocaquestionsvp2;
 import java.io.IOException;
 
 public class Q77Test {
-    void readCard(int cardNo) throws Exception{
+    void readCard(int cardNo)throws Exception{
         System.out.println("Reading Card");
     }
     void checkCard(int cardNo) throws RuntimeException {

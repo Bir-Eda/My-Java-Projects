@@ -17,7 +17,7 @@ class C1 extends C2{
     public static void main(String[] args) {
         C2 obj1=new C1();
         Q129_I obj2=new C1();
-        C2 s=(C2) obj2;
+        C2 s=(C2) obj2; // obj2 yi C@ ye casting yapti
         Q129_I t=obj1;
         t.displayI();
         s.displayC2();
