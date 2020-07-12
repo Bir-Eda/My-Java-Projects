@@ -7,6 +7,7 @@ public class Q1 {
         bool[1] = new Boolean(null);
         System.out.println(bool[0] + "" + bool[1]);
 
+//  NOOOOOTTTT:::  boolean default value=false
 
     }
 //        private Q1(){

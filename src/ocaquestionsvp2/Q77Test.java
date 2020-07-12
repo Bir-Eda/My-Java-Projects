@@ -10,10 +10,10 @@ public class Q77Test {
         System.out.println("Checking Card");
     }
 
-    public static void main(String[] args)  {
+    public static void main(String[] args) throws Exception {// throws Exception olmazsa readCard metodunu cagiramaz
         Q77Test ex=new Q77Test();
         int cardNo=12344;
-       // ex.readCard(cardNo);
+        ex.readCard(cardNo);
         ex.checkCard(cardNo);
     }
 }

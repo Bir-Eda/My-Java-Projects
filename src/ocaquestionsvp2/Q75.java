@@ -1,6 +1,6 @@
 package ocaquestionsvp2;
 // import clothing.Shirt;   or
-// import static clothing.Shirt.getcolor;
+// import static clothing.Shirt.getcolor;   // ?????
 public class Q75 {
     public static String getColor(){
         return "Green";

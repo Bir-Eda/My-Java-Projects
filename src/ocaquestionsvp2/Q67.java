@@ -1,6 +1,6 @@
 package ocaquestionsvp2;
 
 public class Q67 {
-    //  Error class is extendable
-    // Error is a Thtowable
+    //  Error class is extendable(genisletilebilir)
+    // Error is a Throwable
 }

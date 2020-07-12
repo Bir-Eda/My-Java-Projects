@@ -18,7 +18,7 @@ class DVD extends CD{
 
     public DVD(int r, int c) {
         super(r);
-        this.c = c;
+         this.c = c;
     }
 }
 // parantezli super constructeri cagirir, super(c)

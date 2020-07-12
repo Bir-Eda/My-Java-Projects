@@ -9,9 +9,9 @@ public class Q64 {
           if(arr[i].equals("C")){
               continue;
           }
-            System.out.println(arr[i]);
-          //System.out.println("Work done");
-         // break;
+           // System.out.println(arr[i]);
+          System.out.println("Work done");
+          break;  // breakten sonra donguye girmeyecek dolayisiyla sadece A yi yazip bitiracek
         }
     }
 }

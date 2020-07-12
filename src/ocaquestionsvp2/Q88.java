@@ -4,15 +4,17 @@ public class Q88 {
     public static void main(String[] args) {
         int wd=0;
 
-        String days[]={"sun", "mom", "wed", "sat"};
+        String days[]={"sun", "mon", "wed", "sat"};
         for(String s:days){
             switch(s){
                 case "sat":
                 case "sun":
-                    wd-=1;
+                    wd-=1; // -1 olur ve donguye yeniden girmez
+
                     break;
-                case "mom":
+                case "mon":
                     wd-=1;
+                    //System.out.println(wd);
                     break;
                 case "wed":
                     wd+=2;

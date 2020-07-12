@@ -12,6 +12,7 @@ public class Q82 {
                 chs[a][b] = "" + i;
                 i++;
             }
+
         }
         for (String[] ca : chs) {
             for (String c : ca) {

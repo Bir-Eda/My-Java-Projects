@@ -4,6 +4,7 @@ public class Q103Test {
     public static void main(String[] args) {
         Student [] students=new Student[3];
         //students [0]=new Student("Ali");
+
         students [1] =new Student("Richard");
         students [2] =new Student("Donald");
        // students [3]=new Student("Veli");

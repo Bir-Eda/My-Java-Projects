@@ -7,6 +7,7 @@ package ocaquestionsvp;
         if(s<ns){
             s=ns;
             this.ns=ns;
+
         }
     }
     void doPrint(){

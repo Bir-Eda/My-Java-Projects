@@ -8,9 +8,8 @@ public class Q84 {
         setName(name);
     }
     public Q84(String name, int age){
-       this(name);
+         this.name=name;           // Q84(name);  //this(name); seklinde yazmasi gerekirdi
         setAge(age);
-
     }
     public String getName() {
         return name;
@@ -27,9 +26,6 @@ public class Q84 {
     public String show(){
         return name+" "+age;
     }
-
-
-
     public static void main(String[] args) {
         Q84 p1=new Q84("Jasse");
         Q84 p2=new Q84("Walter", 52);

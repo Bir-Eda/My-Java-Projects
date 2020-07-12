@@ -7,14 +7,18 @@ public class Q62 {
             int num=10;
             int div=0;
             int  ans= num/div;
+            System.out.println(ans);
         }
-        catch(ArithmeticException ae){
+        catch(Exception ae){
+      //  catch(ArithmeticException ae){
          // ans=0;  // chatin icine yeniden deger atayamayiz sadece sout yapabiliriz
-
+            System.out.println("invalid");
         }
-        catch(Exception e){
+       // catch(ArithmeticException e){
             System.out.println("Invalid cal");
         }
       //  System.out.println("Answer ="+ans);
+
+
     }
-}
+

@@ -6,9 +6,9 @@ public class Q50 {
     StringBuilder sb=new StringBuilder("Hello");
        // sb.deleteAll();
        //  sb.delete(0, sb.length());
-        sb.delete(0, 3);
-         //sb.removeAll();
-        System.out.println(sb);
+       // sb.delete(0, 3);
+        //sb.removeAll();
+         System.out.println(sb);
    }
 
 }

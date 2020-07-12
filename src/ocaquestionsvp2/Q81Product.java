@@ -15,7 +15,7 @@ public class Q81Product {
        Q81Product p2=new Q81Product(101, "Pen");
 
         Q81Product p3=p1;  //   (101, "Pen");
-        System.out.println(p3==p1);
+     //   System.out.println(p3==p1);
 
         boolean ans1=p1==p2;    //  false
         System.out.println(ans1);

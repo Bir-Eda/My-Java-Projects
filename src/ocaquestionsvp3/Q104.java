@@ -8,9 +8,10 @@ public class Q104 {
         String[] myArray;
         int num=0;
         try{
-            while(num/0>5){  // whilein ici false olursa bir alt satiri gormez
-                //myList.add("My String");
-                num++;
+            while(true){
+           // while(num/0>5){  // whilein ici false olursa bir alt satiri gormez
+               // myList.add("My String");
+              //  num++;
 
             }
         }

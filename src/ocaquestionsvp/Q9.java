@@ -19,9 +19,11 @@ class B extends C{
      }
 
      public static void main(String[] args) {
-         Q9 a= new Q9();
-        // B b=new B();
+        // Q9 a= new Q9();
+       //  B b=new B();
+         C c=new C();
      }
  }
 
-
+// obj parenttan olusunca sadece kendini yazar,
+// obj childdan olusunca hem parenti hemde child i yazar

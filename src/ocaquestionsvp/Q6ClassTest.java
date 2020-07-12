@@ -9,6 +9,6 @@ public class Q6ClassTest {
         xobj.printFileContent();
     }
     public void printFileContent()throws IOException{
-        throw new FileNotFoundException();
+        throw new IOException();
     }
 }

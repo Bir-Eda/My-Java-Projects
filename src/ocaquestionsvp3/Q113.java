@@ -9,15 +9,20 @@ public class Q113 {
                 case "sat": // case de siralama onemli degil
                 case "sun":
                     wd-=1; // wd=wd-1= -1
+                    System.out.println("Eksi bir");
                     break;  //
             //    case "fri":  arrayda olmayan birseyi de yazabilir ama okumaz
                 case "mon":
+                    System.out.println("Arti bir");
                     wd++; // wd burada 0 oldu wd=wd+1= 0
                 case "wed":
+                    System.out.println("Arti iki");
                     wd+=2; // wd  2 oldu // wed e geldigimizde wdnin degeri 2 idi ve bir tane daha iki ekledik
 
             }
         }
         System.out.println(wd);  // 3 oldu
+
+
     }
 }
