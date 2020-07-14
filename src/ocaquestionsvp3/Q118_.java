@@ -7,7 +7,7 @@ public class Q118_ {
 
         float flt1 = (float) 1_11.00;
 
-         Float flt2=(float)100.00;  // sayinin sonuna f harfi koymazsak hata verir yada floata cast yapmamiz gerekiyor
+        // Float flt2=100.00f;  // sayinin sonuna f harfi koymazsak hata verir yada floata cast yapmamiz gerekiyor
 
         Double d=203.4;
 

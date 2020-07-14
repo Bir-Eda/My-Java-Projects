@@ -14,9 +14,9 @@ package ocaquestionsvp2;
 
             System.out.println("Hello "+ new StringBuilder("Java is fun"));
          //   System.out.println("Ali");
-   // Q57MyString text=new Q57MyString(new Q57MyString("Java SE 8"));
+        // Q57MyString text=new Q57MyString(new Q57MyString("Java SE 8"));
 
-           // System.out.println("Hello "+ );
+            System.out.println("Hello "+ new Q57MyString("Java SE 8"));
         }
     }
 

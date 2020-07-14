@@ -12,6 +12,7 @@ public class Q34 {
 class Animal{
     String type="Canine";
     int maxSpeed=60;
+
     Animal(){ }
 
      Animal(String type, int maxSpeed) {
@@ -23,12 +24,11 @@ class WildAnimal extends Animal{
     String bounds;
 
     WildAnimal(String bounds) {
-       // this.bounds = bounds;
               super();
                this.bounds=bounds;
     }
     WildAnimal(String type, int maxSpeed, String bounds) {
-        super(type, maxSpeed);
+        //super(type, maxSpeed);
         this.bounds = bounds;
 
     }

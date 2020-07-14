@@ -8,6 +8,10 @@ package ocaquestionsvp;
             s=ns;
             this.ns=ns;
 
+            //0<50 --> s=125   ns=50
+            //50<125  --> s=125   ns=125
+            //125<100  --> s=125  ns=0
+
         }
     }
     void doPrint(){

@@ -9,7 +9,7 @@ public class Q33 {
         }
     }
 
-    public static boolean isAvailable(int x){
-        return  x-- >0 ? true : false;
+    public static boolean isAvailable(int y){
+        return  y-- >0 ? true : false;
     }
 }

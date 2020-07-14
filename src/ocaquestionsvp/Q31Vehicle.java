@@ -13,12 +13,9 @@ class Car extends Q31Vehicle {
     int y;
 
     Car()  {
-       // super();
-
+     //   super();
         this(20);
-
     }
-
     Car(int y) {
         this.y = y; // yukardaki line 13 teki y ye refor eder
     }

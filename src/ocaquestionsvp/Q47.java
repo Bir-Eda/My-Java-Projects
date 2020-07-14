@@ -6,13 +6,13 @@ public class Q47 {
         String[] str = {"A", "B"};
         int idx = 0;
         for (String s : str) {
-         //str[idx].concat(" element "+idx);
-          //  idx++;
+            str[idx] = str[idx].concat(" element " + idx);
+            idx++;
         }
-           // for (idx = 0; idx < str.length; idx++) {
-                System.out.println(str[idx]);
+        for (idx = 0; idx < str.length; idx++) {
+            System.out.println(str[idx]);
 
-           // }
+            // }
 //        String name="Ali";
 //        String name1="Cem";
 //        String name2="Merve";
@@ -20,4 +20,5 @@ public class Q47 {
 //        System.out.println(name2);
         }
     }
+}
 
