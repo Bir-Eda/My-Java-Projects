@@ -6,7 +6,8 @@ public class Q27 {
 
 
     public String toString() {
-        return sVar + ":" + var+ " : ";  //
+        return sVar + ":" + var+ " : ";
+      // return 100+ 300-----300+200
 
     }
 
@@ -24,3 +25,4 @@ class Q27T{
         System.out.println(t3);
     }
 }
+//  int i=0; i<a.length; i+2

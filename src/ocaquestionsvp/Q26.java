@@ -8,10 +8,10 @@ public class Q26 {
         System.out.println(doCal(var1));
         System.out.println(""+var1);
     }
-     static int doCal(int var1){
-        var1=var1*2;
+     static int doCal(int var){
+        var=var*2;
 
-        return var1;
+        return var;
 
 
     }

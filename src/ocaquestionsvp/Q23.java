@@ -5,15 +5,14 @@ public class Q23 {
         int[] stack = {10, 20, 30};
         int size = 3;
         int idx = 0;
-//        do {
-//            idx++;
-//        }
-//        while (idx < size -1);
-        while(idx<size){
+
+        do {
             idx++;
         }
-        System.out.println(idx);
-            System.out.println("Top element: " + stack[idx]);
+        while (idx < size-1 );
+
+        System.out.println("Top element: " + stack[idx]);
         }
-    }
+}
+
 
