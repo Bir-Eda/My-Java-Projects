@@ -6,7 +6,7 @@ public class Q47 {
         String[] str = {"A", "B"};
         int idx = 0;
         for (String s : str) {
-            str[idx] = str[idx].concat(" element " + idx);
+            str[idx] =  str[idx].concat(" element " + idx);
             idx++;
         }
         for (idx = 0; idx < str.length; idx++) {

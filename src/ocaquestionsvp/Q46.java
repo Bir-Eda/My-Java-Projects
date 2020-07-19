@@ -11,7 +11,7 @@ public class Q46 {
             for(String n: names){
 
                 pwd[idx]=n.substring(2, 6);
-                 System.out.println(pwd[idx]);
+                 //System.out.println(pwd[idx]);
                 idx++;
             }
           }
