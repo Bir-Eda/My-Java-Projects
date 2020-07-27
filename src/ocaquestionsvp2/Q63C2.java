@@ -13,7 +13,7 @@ package ocaquestionsvp2;
    }
    public static void main(String[] args) {
     Q63C2 o1=new C1();
-
+ //   Q63C2 o1=new C1();
     I o2=new C1();
     //float k=(float)1.2;
     Q63C2 s= (C1)o2;  // clasidan olusturdugu objeyi yine objeye esitlemeye calisiyo, once cast etmesi gerekirdi

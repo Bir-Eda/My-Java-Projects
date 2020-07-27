@@ -1,6 +1,6 @@
 package ocaquestionsvp;
 
- class Q5Vehicle {
+ public class Q5Vehicle {
     String type = "4W";
     int maxSpeed = 100;
 
@@ -12,7 +12,7 @@ package ocaquestionsvp;
     Q5Vehicle() {
     }
 
-    static class Car extends Q5Vehicle {
+     class Car extends Q5Vehicle {
         String trans;
 
         Car(String trans) {
@@ -27,10 +27,10 @@ package ocaquestionsvp;
 
 
     public static void main(String[] args) {
-        Car c1= new Car("Auto");
-        Car c2=new Car("4W", 150, "Manuel");
-        System.out.println(c1.type+" "+c1.maxSpeed+" "+c1.trans);
-        System.out.println(c2.type+" "+c2.maxSpeed+" "+c2.trans);
+//        Car c1= new Car("Auto");
+//        Car c2=new Car("4W", 150, "Manuel");
+//        System.out.println(c1.type+" "+c1.maxSpeed+" "+c1.trans);
+//        System.out.println(c2.type+" "+c2.maxSpeed+" "+c2.trans);
 
     }
 }

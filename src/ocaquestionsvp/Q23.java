@@ -8,11 +8,13 @@ public class Q23 {
 
         do {
             idx++;
+            System.out.println(idx);
         }
-        while (idx < size-1 );
 
-        System.out.println("Top element: " + stack[idx]);
-        }
+        while (idx < size - 1);
+        System.out.println(idx);
+        System.out.println("Top element: "+stack[idx]);
+}
 }
 
 

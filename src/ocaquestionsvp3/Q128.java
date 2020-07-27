@@ -10,11 +10,14 @@ public class Q128 {
     }
 
 }
-class Test{
-    public static void main(String[] args) {
-        Q128 c=new Q128();
-       // c.start();
-       // c.init();
-    }
-}
+//class Test{
+//    public static void main(String[] args) {
+//        Q128 c=new Q128();
+//       // c.start();
+//       // c.init();
+//    }
+//
+//    private void updatePrice(Q139 prt, double newPrice) {
+//    }
+//}
 // privatelari baska bir classda cagiramaz

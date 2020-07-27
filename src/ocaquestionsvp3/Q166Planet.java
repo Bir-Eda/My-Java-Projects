@@ -15,8 +15,8 @@ public class Q166Planet {
                new Q166Planet("Earth", 1),
                new Q166Planet("Mars", 2),
        } ;
-       // System.out.println(planets);
-        System.out.println(planets[0].name);
+        System.out.println(planets);
+        System.out.println(planets[3].name);
         System.out.println(planets[0].moons);
       //  System.out.println();
     }

@@ -28,7 +28,7 @@ class WildAnimal extends Animal{
                this.bounds=bounds;
     }
     WildAnimal(String type, int maxSpeed, String bounds) {
-        //super(type, maxSpeed);
+        super(type, maxSpeed);
         this.bounds = bounds;
 
     }

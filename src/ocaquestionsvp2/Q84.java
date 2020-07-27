@@ -8,7 +8,7 @@ public class Q84 {
         setName(name);
     }
     public Q84(String name, int age){
-         this.name=name;           // Q84(name);  //this(name); seklinde yazmasi gerekirdi
+       // Q84(name);                    //this.name=name;           // Q84(name);  //this(name); seklinde yazmasi gerekirdi
         setAge(age);
     }
     public String getName() {

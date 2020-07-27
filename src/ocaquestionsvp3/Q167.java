@@ -7,6 +7,6 @@ import java.time.format.DateTimeFormatter;
 public class Q167 {
     public static void main(String[] args) {
         LocalDateTime dt=  LocalDateTime.of(2014,7,31,1,1);
-        System.out.println(dt.format(DateTimeFormatter.ISO_LOCAL_DATE_TIME)); // datetime olursa saat ve dakika cikarmaz
+        System.out.println(dt.format(DateTimeFormatter.ISO_DATE)); // datetime olursa saat ve dakika cikarir
     }
 }

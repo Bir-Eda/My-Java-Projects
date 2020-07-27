@@ -11,10 +11,11 @@ package ocaquestionsvp;
 }
 class Car extends Q31Vehicle {
     int y;
-
+   // super();
     Car()  {
-     //   super();
-        this(20);
+
+       this(20); //  bu sekilde yazilamaz
+
     }
     Car(int y) {
         this.y = y; // yukardaki line 13 teki y ye refor eder

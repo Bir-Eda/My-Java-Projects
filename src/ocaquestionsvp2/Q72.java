@@ -1,21 +1,28 @@
 package ocaquestionsvp2;
 
 public class Q72 {
-    Character c; // char yazarsak space degerini verir
-    // char c;
-    //  boolean b;  // objectler null a gider
-    Boolean b;
-    //  float f;   // wrapper classlar objecte gider ve objecte gittigi icin de null olur
-    Float f;
-    Integer a;
-    String s;
+   // Character c; // char yazarsak space degerini verir      // char c;
+    char c;
+    boolean b;  // objectler null a gider
+    float f;   // wrapper classlar objecte gider ve objecte gittigi icin de null olur
+  //   Boolean b;   //
+  //  Float f;  //
+  //  Integer a;
+   // String s;
 
     void printAll() {
         System.out.println("c = " + c);
-//        System.out.println("b = "+b);public class Q69EmployeeTest {
+        System.out.println("b = " + b);
+        System.out.println("f =" + f);
+//        public class Q69EmployeeTest {
 //
-//            public static void main(String[] args) {
-//                Q69Employee e1=new Q69Employee();
+    }
+           public static void main(String[] args){
+        Q72 f=new Q72();
+        f.printAll();
+        }
+
+             //   Q69Employee e1=new Q69Employee();
 //                Q69Employee e2=new Q69Employee("Jack", 50);
 //                Q69Employee e3=new Q69Employee("Chloe", 40, 500 );
 
@@ -31,4 +38,3 @@ public class Q72 {
 //    }
 
     }
-}

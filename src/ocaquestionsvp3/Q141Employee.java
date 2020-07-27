@@ -20,9 +20,9 @@ public class Q141Employee {
     public static void main(String[] args) {
         Q141Employee e=new Q141Employee();
 
-//        e.name="Joe";
-//        e.contract=true;
-//        e.salary=100;
+        e.name="Joe";
+        e.contract=true;
+        e.salary=100;
         System.out.println(e);
     }
 }

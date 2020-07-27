@@ -6,7 +6,7 @@ public class Q104 {
     public static void main(String[] args) {
         ArrayList myList= new ArrayList();
         String[] myArray;
-        int num=0;
+       // int num=0;
         try{
             while(true){
            // while(num/0>5){  // whilein ici false olursa bir alt satiri gormez

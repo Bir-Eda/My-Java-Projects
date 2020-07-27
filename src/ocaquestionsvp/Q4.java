@@ -6,11 +6,12 @@ public class Q4 {
         float fVar=100.000f;
         double dVar=123;
 //        fVar=iVar;
-//        iVar=fVar;
+       iVar=(int)fVar;
 //        fVar=dVar;
 //        dVar=fVar;
 //        iVar=dVar;
 //        dVar=iVar;
 
     }
+    float sum= 30.0f;
 }
