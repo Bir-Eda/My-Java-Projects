@@ -9,8 +9,19 @@ public class Q110 {
     }
     public static void main(String[]args){  // java main metodun overloading olmasina izin verir
         System.out.println("String main"+args[0]); // run yapinca her zaman orjinaline bakacak ve String yazacak
+
     }
 }
+//class Bal{
+//    private int doStuff(){
+//       // private int x=100;
+//       // return x;
+//  //  }
+//
+//}
+
+
+
 // javac MainTest.java
 //java MainTest 1 2 3
 // 1  args[0]

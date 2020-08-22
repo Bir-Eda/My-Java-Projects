@@ -22,5 +22,6 @@ public class Q97 {
     public static void main(String[] args) {
         Q97 obj=new Q97();
         obj.setArea();
+        System.out.println(obj.area);
     }
 }

@@ -3,14 +3,14 @@ package ocaquestionsvp3;
 import java.util.ArrayList;
 
 public class Q104 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         ArrayList myList= new ArrayList();
         String[] myArray;
        // int num=0;
         try{
             while(true){
            // while(num/0>5){  // whilein ici false olursa bir alt satiri gormez
-               // myList.add("My String");
+                myList.add("My String");
               //  num++;
 
             }

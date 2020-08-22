@@ -16,7 +16,7 @@ public class Q109Vowel {
         obj2.var='i';  // var`in degeri i oldugu icin i yazacak
       //  System.out.println(obj2.var);
        // obj3.var= 'u';  // obj3 u obj1 e esitledigi icin en son obj3 e  verdigimiz degeri gosterecek
-
+        obj2.var='u';
         System.out.println(var1+", "+var2);
         System.out.println(obj1.var+", "+obj2.var+", ");    //+obj3.var);
     }

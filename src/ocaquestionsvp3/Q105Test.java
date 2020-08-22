@@ -13,7 +13,7 @@ public class Q105Test {
     public void initialize(int x, int y){  // local variablellar metodun icinde kalir.
         this.x=x*x;
         this.y=y*y;
-       // System.out.println(this.x+" "+this.y);
+      //  System.out.println(this.x+" "+this.y);
     }
 
     public static void main(String[] args) {

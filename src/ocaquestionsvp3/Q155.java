@@ -12,9 +12,9 @@ public class Q155 {
         point.add(null);
         //System.out.println(point);
         point.remove(1);
-        System.out.println(point);
-        point.remove(null);
        // System.out.println(point);
+        point.remove(null);
+        System.out.println(point);
 
 
     }

@@ -7,6 +7,6 @@ public class Q173 {
             System.out.print(num--+" ");
         }
         while(num==0);
-        //System.out.println(num);
+
     }
 }

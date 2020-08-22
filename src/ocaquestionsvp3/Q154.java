@@ -3,6 +3,7 @@ package ocaquestionsvp3;
 public class Q154 {
     static int count;
     public static void display(){
+     //   count++;
         System.out.println("Welcome"+count++);
     }
 

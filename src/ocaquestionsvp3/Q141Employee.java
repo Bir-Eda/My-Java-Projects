@@ -5,11 +5,11 @@ public class Q141Employee {
     boolean contract;
     double salary;
     Q141Employee(){
-        name="Joe";
-        this.name="Joe";
-        this.name=new String ("Joe");
-        this.contract=new Boolean(true);
-        this.salary= new Double(100);
+//        name="Joe";
+//        this.name="Joe";
+//        this.name=new String ("Joe");
+//        this.contract=new Boolean(true);
+//        this.salary= new Double(100);
 
 
     }

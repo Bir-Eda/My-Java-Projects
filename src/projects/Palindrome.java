@@ -3,6 +3,7 @@ package projects;
 public class Palindrome {
     public static void main(String[] args) {
         System.out.println(isPalindromeNaive("Birsen"));
+        System.out.println(isPolindrome_2("kazak"));
     }
     public static boolean isPalindromeNaive(String s){
         StringBuilder sb1 = new StringBuilder(s);
@@ -12,5 +13,15 @@ public class Palindrome {
         }
         return false;
     }
+
+    public static boolean isPolindrome_2(String str){
+        String bld = new StringBuilder(str).reverse().toString();
+        if(bld.equals(str)){
+            return true;
+        }
+        return false;
+    }
+
+
 
 }

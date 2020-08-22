@@ -7,8 +7,8 @@ public class Q164 {
         int count=0;
         for(int e:data){
             if(e!=key){
-               // continue;
-                count++;
+                continue;
+               // count++;
             }
         }
         System.out.println(count+"Found");

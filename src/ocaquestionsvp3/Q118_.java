@@ -12,7 +12,7 @@ public class Q118_ {
         Double d=203.4;
 
         double y1 = 203.22;
-        // flt=(float)y1;
+         flt=(float)y1;
 
         float flt3 =(float) y1;
         int y2=100;
@@ -23,5 +23,15 @@ public class Q118_ {
 
 // wrapper classlarda casting olmuyor
 // literal= int y3=25;
+
+        float f=(float)11.0;
+        float s=12.0f;
+        int m=19;
+        int n=(int)s;
+
+
+
+
+
     }
 }
