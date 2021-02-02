@@ -1,6 +1,11 @@
 package fifth_method_package;
 
 public class Reversing {
+    public static void main(String[] args) {
+
+        reverseString("Birsen");
+        System.out.println(reverseText("Heyyaa\n"));
+    }
     public static void reverseString(String sentence){
         for( int i=sentence.length()-1; i>=0; i--){
             //for(int i=13; i>=0; i--){

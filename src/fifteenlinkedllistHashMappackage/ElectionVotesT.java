@@ -19,7 +19,7 @@ public class ElectionVotesT {
                     votes.put(person,1);
                 }
             }
-            //System.out.println(votes);
+            System.out.println(votes);
             Iterator totalVotes = votes.entrySet().iterator();
             String index="";
             int maxVote=0;

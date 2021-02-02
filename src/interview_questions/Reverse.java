@@ -12,6 +12,8 @@ public class Reverse {
             reverse+=text.charAt(i);
             //System.out.println(i);
 
+
+
         }
         return reverse;
 //        if(s.equals(reverse)){
@@ -24,7 +26,11 @@ public class Reverse {
 
 
 
+    }
 
 
 
-}
+
+
+
+

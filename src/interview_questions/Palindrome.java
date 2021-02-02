@@ -4,6 +4,7 @@ public class Palindrome {
     public static void main(String[] args) {
         System.out.println(isPolindrome("kazak"));
         System.out.println(isPolindromeSecond("hagsfd"));
+        System.out.println(pal(12322));
     }
 
     public static boolean isPolindrome(String str) {
@@ -18,5 +19,21 @@ public class Palindrome {
         }
         return true;
     }
+    public static boolean pal(int num){
+        int org_num=num;
+        int rev=0;
+        while(num!=0){
+            rev=rev*10+num%10;
+            num=num/10;
+        }
+        if(org_num==rev){
+           // System.out.println(org_num+ " polindrom");
+            return true;
+        }
+        return false;
 
-}
+        }
+
+    }
+
+

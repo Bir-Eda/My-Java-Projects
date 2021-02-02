@@ -1,9 +1,15 @@
 package twentyjavastringprocessingrecursionpackage;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
 public class CenturySecond {
     public static void main(String[] args) {
         String num="1645";
         String num2="2000";
+
+
+
     }
     public static int findCentury(String num){
         String newS= ""+num.charAt(0)+num.charAt(1);
@@ -17,4 +23,6 @@ public class CenturySecond {
         }
         return century;
     }
+
+
 }

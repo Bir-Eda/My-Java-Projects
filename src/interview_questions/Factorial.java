@@ -2,6 +2,8 @@ package interview_questions;
 
 public class Factorial {
     public static void main(String[] args) {
+
+
         factorial(6);
 
     }
@@ -9,9 +11,51 @@ public class Factorial {
         int fact=1;
         for(int i=1; i<=num; i++){
             fact=fact*i;
-        }
-        System.out.println("Factorial of "+num+" is: "+fact);
 
         }
+        System.out.println("Factorial of "+num+" is:  "+fact);
+
+        }
+
+
+
+
+
+
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

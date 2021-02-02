@@ -9,8 +9,20 @@ public class FindNumOfElement {
                 counter++;  // it is counting how many words less than four lengths(4 harften daha az olanlari sayiyor)
                 System.out.println(words[i]);
             }
+
         }
         System.out.println(counter);
+
+    }
+        public static void macSecond(String word []){
+        int count=0;
+        for( int i=0; i<word.length; i++){
+            if(word[i].length()<6){
+                count++;
+            }
+
+
+        }
 
     }
 }

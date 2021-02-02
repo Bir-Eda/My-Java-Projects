@@ -16,5 +16,5 @@ public class MyPrime {
         }
         return true;
    }
-   
+
 }

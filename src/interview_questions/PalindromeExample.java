@@ -3,6 +3,7 @@ package interview_questions;
 public class PalindromeExample {
     public static void main(String[] args) {
         System.out.println(isPalindrome("madam"));
+        // level
     }
     public static boolean isPalindrome(String text){
         StringBuilder sb1 = new StringBuilder(text);
