@@ -12,7 +12,8 @@ public class FindMinValue {
     }
 
     public static void main(String[] args) {
-        int a[]={3,6,8,15};
+        int a[]={3,6,8,15,2};
         System.out.println(minNumber(a));
     }
+
 }

@@ -13,5 +13,13 @@ public class PalindromeExample {
         }
         return false;
     }
+
+
+    public static boolean isPalondromeee(String str){
+        if(str.equals(new StringBuilder(str).reverse().toString())){
+            return true;
+        }
+        return false;
+    }
     }
 

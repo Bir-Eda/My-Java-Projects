@@ -4,11 +4,15 @@ import java.util.Arrays;
 
 public class FindMax {
     public static void main(String[] args) {
-        int arr[] = {2, 67, 12, 9, 34, 7};
-        System.out.println(maxNum(arr));
-        System.out.println(largest(arr));
+        int arr[] = {2, 67, 12, 9, 34, 98, 7};
+        //System.out.println(maxNum(arr));
+        //System.out.println(largest(arr));
         //System.out.println(minNum(arr));
-        System.out.println(maxSayi(arr));
+        //System.out.println(maxSayi(arr));
+//        System.out.println(maxNbr(arr));
+       // System.out.println(minNbr(arr));
+
+
     }
 
     public static int maxNum(int array[]) {
@@ -39,6 +43,26 @@ public class FindMax {
             }
         return max;
         }
+
+       public static int maxNbr(int arr[]){
+        int max=0;
+           for (int i = 0; i <arr.length; i++) {
+               if(arr[i]>max){
+                   max=arr[i];
+               }
+
+           }
+        return max;
+
+       }
+       public static int minNbr(int arr[]){
+        Arrays.sort(arr);
+        return arr[0];
+       }
+
+
+
+
     }
 
 

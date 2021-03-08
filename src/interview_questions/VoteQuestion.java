@@ -7,6 +7,7 @@ public class VoteQuestion {
     public static void main(String[] args) {
         String sentence = "Java is java but python is not java";
         sentence=sentence.toLowerCase();
+
         String[] words= sentence.split(" ");
         HashMap<String, Integer> repeat=new HashMap<>();
         int count=0;

@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class SumOfElementInArray {
     public static void main(String[] args) {
+        int array[] = {1, 2, 3, 4, 5};
         Scanner scan=new Scanner(System.in);
         System.out.print("enter array size numbers :"+" ");
         int n=scan.nextInt();
@@ -12,7 +13,7 @@ public class SumOfElementInArray {
             arr[i]= scan.nextInt();
 
         }
-        System.out.println(sum(arr));
+        //  System.out.println(sum(arr));
 
 
 
@@ -25,15 +26,6 @@ public class SumOfElementInArray {
 //
 //        }
 //        System.out.println(sum);
-
-    }
-    public static int sum(int []arr){
-        int sum=0;
-        for (int i = 0; i <arr.length ; i++) {
-            sum+=arr[i];
-
-        }
-        return sum;
 
     }
 

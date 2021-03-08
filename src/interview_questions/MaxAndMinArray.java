@@ -11,11 +11,11 @@ public class MaxAndMinArray {
                 max = num;
             }
         }
-        System.out.println(max);
-        System.out.println(max(arr));
+       // System.out.println(max);
+       // System.out.println(max(arr));
         System.out.println(min(arr));
-        System.out.println(min2(arr));
-        System.out.println(min3(arr));
+       // System.out.println(min2(arr));
+       // System.out.println(min3(arr));
 
     }
 
@@ -32,7 +32,7 @@ public class MaxAndMinArray {
     }
 
     public static int min(int arr[]) {
-        int min = 12;
+        int min = 89;
         for (int num : arr) {
             if (num < min) {
                 min = num;
@@ -48,7 +48,7 @@ public class MaxAndMinArray {
     }
     public static int min3(int arr[]){
         Arrays.sort(arr);
-        return arr[arr.length-1];
+        return arr[arr.length-2];  // ikinci en buyuk sayi
     }
 
 

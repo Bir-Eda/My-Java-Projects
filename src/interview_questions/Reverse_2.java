@@ -20,8 +20,8 @@ public class Reverse_2 {
 
     // second example
     public static String reverseSecond(String text) {
-        String str = new StringBuilder(text).reverse().toString();
-        return str;
+       // String str = new StringBuilder(text).reverse().toString();
+        return new StringBuilder(text).reverse().toString();
 
         // yada boyle kisaca yazabiliriz
        // return new StringBuilder(text).reverse().toString();

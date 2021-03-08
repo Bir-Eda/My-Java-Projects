@@ -12,7 +12,7 @@ public class Fibonacci_Example {
 
         for(int i=1; i<=number; i++){
 
-            System.out.print(" "+ fibonacci(i));
+            System.out.println(i+" .fibonacci number "+ fibonacci(i));
         }
 
     }
